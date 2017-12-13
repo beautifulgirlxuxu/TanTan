@@ -1,0 +1,50 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">
+            <text>所有配对</text>
+        </view> 
+        <view class="page__hd_moon">
+            <image src="../../images/moon.png" />
+            <text>朋友圈</text>
+        </view>
+    </view>
+    <view class="page__bd">
+        <view class="swiper-tab">
+            <view class="swiper-tab-item {{currentTab==0?'active':''}}"  bindtap="changeTab" data-current="0">所有配对</view>
+            <view class="swiper-tab-item {{currentTab==1?'active':''}}"  bindtap="changeTab" data-current="1">聊天</view>
+            <!-- <view class="sel_line"></view> -->
+        </view>
+        <swiper class="swiper-item " current="{{currentTab}}" bindchange="swiperTab">
+            <swiper-item>
+                <view class="swiper-item__content">
+                    <block wx:for="{{friendsList}}" wx:key="index">
+                        <view class="weui-tab__content">
+                            <view class="weui-media-box__hd">
+                                <image src="{{item.avatar}}" mode="aspectFit"></image>
+                            </view> 
+                            <view class="weui-media-box__bd">
+                                <view class="weui-media-box__nickname">{{item.nickname}}</view>
+                                <view class="weui-media-box__message">{{item.message}}</view>
+                            </view>
+                        </view>
+                    </block>
+                </view>
+            </swiper-item>
+            <swiper-item>
+                <view class="swiper-item__content">
+                    <block wx:for="{{friendsList}}" wx:key="index">
+                        <view class="weui-tab__content">
+                            <view class="weui-media-box__hd">
+                                <image src="{{item.avatar}}" mode="aspectFit"></image>
+                            </view> 
+                            <view class="weui-media-box__bd">
+                                <view class="weui-media-box__nickname">{{item.nickname}}</view>
+                                <view class="weui-media-box__message">{{item.message}}</view>
+                            </view>
+                        </view>
+                    </block>
+                </view>
+            </swiper-item>
+        </swiper>
+    </view>
+</view>

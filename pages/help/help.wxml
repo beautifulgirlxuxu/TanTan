@@ -1,0 +1,32 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__hd_left {{open ? c-state1 : ''}}">
+            <navigator url="../user/user">
+                <image src="../../images/more.png" />
+            </navigator>
+        </view>
+        <view class="page__title">
+          <text>新手引导</text>
+        </view>
+        <view class="page__hd_right">
+            <image src="../../images/question.png" />
+        </view>
+    </view>
+</view>
+<view class="page__bd">
+    <view class="page__bd_title">
+        <!-- <image src="http://img1.3lian.com/2015/w2/10/d/21.jpg" /> -->
+        <view class="title-content">如何成为探探高手！</view>
+        <view class="version">探探2.8.8.1</view>
+    </view>
+    <view class="page__bd_content">
+        <view class="cell">探探怎么玩？</view>
+        <view class="cell">怎样让更多的人喜欢我，怎样得到更多配对？</view>
+        <view class="cell">我没有配对，或喜欢数长期不涨！</view>
+        <view class="cell">聊不起来，打招呼没人理。</view>
+        <view class="cell">刷不到人怎么办，只能看到异性吗？</view>
+        <view class="cell">手滑了翻错能反悔吗？</view>
+        <view class="cell">卡片上灰色和红色的图标是什么意思？</view>
+        <view class="cell">怎么改资料？</view>
+    </view>
+</view>

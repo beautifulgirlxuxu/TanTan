@@ -1,0 +1,481 @@
+.page {
+    width: 100%;
+    height: 100%;
+}
+.page__hd {
+    width: 100%;
+    height: 100rpx;
+    background-color: #F788AB;
+}
+.page__hd image{
+    width: 60rpx;
+    height: 60rpx;
+    line-height: 100rpx;
+    display: inline-block;
+    float: left;
+    margin-top: 20rpx;
+    margin-left: 34rpx;
+}
+.page__hd .title{
+    /* float: left; */
+    font-size: 42rpx;
+    text-align: left;
+    color: white;
+    line-height: 100rpx;
+    margin-left: 160rpx;
+}
+.page__bd {
+    width: 100%;
+    height: 1800rpx;
+    letter-spacing: 4rpx;
+    overflow-y: scroll;
+}
+.page__bd.albu {
+    width: 100%;
+    height: 650rpx;
+}
+.page__bd.albu image{
+    margin: 6rpx 4rpx;
+    width: 48%;
+    height: 300rpx;
+}
+
+.user-info {
+    width: 100%;
+    height: 200rpx;
+    /* padding: 20rpx 20rpx; */
+    font-family: sans-serif;
+    text-align: left;
+    border-bottom: .5rpx solid grey;
+}
+.name {
+    font-size: 42rpx;
+    letter-spacing: 5rpx;
+    margin-top: 30rpx;
+    margin-left: 40rpx;
+}
+.center{
+    width: 100%;
+    /* position: relative; */
+}
+.age {
+    width:80rpx;
+    height: 40rpx;
+    margin-top: 10rpx;
+    margin-left: 40rpx;
+    font-size: 32rpx;
+    line-height: 40rpx;
+    text-align: center;
+    letter-spacing: 1rpx;
+    /* float: left; */
+    display: inline-block;
+    float: left;
+    background-color: pink;
+    border-radius: 10rpx;
+}
+.conste {
+    width:120rpx;
+    height: 40rpx;
+    margin-top: 10rpx;
+    margin-left: 20rpx;
+    font-size: 32rpx;
+    line-height: 40rpx;
+    text-align: center;
+    letter-spacing: 1rpx;
+    display: inline-block;
+    float: left;
+    background-color: rgb(99, 212, 99);
+    border-radius: 10rpx;
+}
+.active{
+    margin-top: 60rpx;
+    margin-left: 40rpx;
+    color:grey;
+    font-size: 30rpx;
+    /* position: absolute; */
+}
+.sign {
+    width: 100%;
+    height: 240rpx;
+    border-bottom: .5rpx solid grey;
+}
+.sign__title {
+    text-align: left;
+    margin: 50rpx 40rpx;
+    color: #F788AB;
+}
+.sign__content image{
+    width: 50rpx;
+    height: 50rpx;
+    float: left;
+    margin: 10rpx 40rpx;
+}
+.sign__add {
+    font-size: 48rpx;
+    color:#F788AB;
+    float:left;
+    margin: 5rpx 40rpx;
+}
+.sign__input {
+    font-size: 36rpx;
+    float: left;
+    color: grey;
+    margin: 12rpx 10rpx;
+}
+.info {
+    width: 100%;
+    height: 800rpx;
+    border-bottom: .5rpx solid grey;
+}
+.info__title {
+    text-align: left;
+    margin: 50rpx 40rpx;
+    color: #F788AB;
+}
+.hyinfo {
+    width: 100%;
+}
+.hyinfo image {
+    width: 60rpx;
+    height: 60rpx;
+    float: left;
+    margin: 10rpx 40rpx;
+}
+.hyinfo__add {
+    font-size: 48rpx;
+    color:#F788AB;
+    float:left;
+    margin: 5rpx 40rpx;
+}
+.hyinfo__input {
+    font-size: 36rpx;
+    float: left;
+    color: grey;
+    margin: 12rpx 10rpx;
+}
+.woinfo {
+    float: left;
+}
+.woinfo image {
+    width: 60rpx;
+    height: 60rpx;
+    float: left;
+    margin: 50rpx -100rpx;
+}
+.woinfo__add {
+    font-size: 48rpx;
+    color:#F788AB;
+    float:left;
+    margin: 46rpx 40rpx;
+}
+.woinfo__input {
+    font-size: 36rpx;
+    float: left;
+    color: grey;
+    margin: 56rpx 10rpx;
+}
+.cominfo {
+    float: left;
+}
+.cominfo image {
+    width: 60rpx;
+    height: 60rpx;
+    float: left;
+    margin: 20rpx 40rpx;
+}
+.cominfo__add {
+    font-size: 48rpx;
+    color:#F788AB;
+    float:left;
+    margin: 12rpx 40rpx;
+}
+.cominfo__input {
+    font-size: 36rpx;
+    float: left;
+    color: grey;
+    margin: 22rpx 10rpx;
+}
+.address {
+    /* position: relative; */
+    float: left;
+}
+.address image{
+    width: 60rpx;
+    height: 60rpx;
+    float: left;
+    /* position: absolute; */
+    margin-top: 150rpx;
+    margin-left: -480rpx;
+}
+.address__pro {
+    float: left;
+    margin-top: 155rpx;
+    margin-left: -330rpx;
+}
+.often {
+    float: left;
+}
+.often image{
+    float: left;
+    width: 60rpx;
+    height: 60rpx;
+    margin-top: 60rpx;
+    margin-left: 40rpx;
+}
+.often__add {
+    float: left;
+    font-size: 48rpx;
+    color: #F788AB;
+    margin: 55rpx 85rpx;
+}
+.often__input {
+    color: grey;
+    float: left;
+    margin: 65rpx -40rpx;
+}
+.user-label {
+    width: 100%;
+    height: 220rpx;
+    border-bottom: 1rpx solid grey;
+}
+.mylabel {
+    text-align: left;
+    color: #F788AB;
+    margin-top: 40rpx;
+    margin-left: 35rpx;
+}
+.user-label image {
+    width: 80rpx;
+    height: 80rpx;
+    float: left;
+    margin-top: 50rpx;
+    margin-left: 30rpx;
+}
+.firlab {
+    width: 160rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    float: left;
+    font-size: 32rpx;
+    color: rgb(50, 50, 197);
+    text-align: center;
+    margin-top: 60rpx;
+    margin-left: 80rpx;
+    background-color:rgb(160, 148, 148);
+    border-radius: 10rpx;
+}
+.seclab {
+    width: 160rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    float: left;
+    font-size: 32rpx;
+    color: rgb(50, 50, 197);
+    text-align: center;
+    margin-top: 60rpx;
+    margin-left: 10rpx;
+    background-color: rgb(160, 148, 148);
+    border-radius: 10rpx;
+}
+.hobby {
+    width: 100%;
+    height: 800rpx;
+    border-bottom: 1rpx solid grey;
+}
+.hobby image{
+    width:60rpx;
+    height: 60rpx;
+    float: left;
+}
+.ho__title {
+    text-align: left;
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+    color: #F788AB;
+}
+.ho__sports {
+    width:100%;
+    height: 40rpx;
+    /* position: absolute; */
+}
+.ho__sports image{
+    margin-top: 60rpx;
+    margin-left: 30rpx;
+}
+.ho__sport {
+    width: 140rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 32rpx;
+    border-radius: 10rpx;
+    color: green;
+    background-color: rgb(120, 194, 120);
+    float: left;
+    margin-top: 60rpx;
+    margin-left: 80rpx;
+    float: left;
+}
+.music {
+    width: 100%;
+    height: 40rpx;
+    float: left;
+}
+.music image{
+    /* float: left; */
+    width: 60rpx;
+    height: 60rpx;
+    margin: 60rpx 30rpx;
+}
+.coun {
+    width: 135rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: rgb(21, 21, 201);
+    border-radius: 10rpx;
+    background-color: rgb(140, 140, 216);
+    float: left;
+    margin: 60rpx 50rpx;
+}
+.firsin {
+    width: 135rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: rgb(21, 21, 201);
+    border-radius: 10rpx;
+    background-color: rgb(140, 140, 216);
+    float: left;
+    margin: 60rpx -30rpx;
+}
+.secsin {
+    width: 220rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: rgb(21, 21, 201);
+    border-radius: 10rpx;
+    background-color: rgb(140, 140, 216);
+    float: right;
+    margin: 60rpx 50rpx;
+}
+.food {
+    width:100%;
+}
+.food image {
+    width: 60rox;
+    height: 60rpx;
+    float: left;
+    margin-top: 120rpx;
+    margin-left: 30rpx;
+}
+.food__add {
+    font-size: 42rpx;
+    color: orangered;
+    float: left;
+    margin-left: 70rpx;
+    margin-top: 120rpx;
+}
+.food__input {
+    color: grey;
+    float: left;
+    margin-left: 30rpx;
+    margin-top: 130rpx;
+}
+.movies{
+    width: 100%;
+    height: 40rpx;
+    float: left;
+}
+.movies image{
+    float: left;
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+}
+.movie {
+    width: 280rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: rgb(204, 56, 199);
+    border-radius: 10rpx;
+    background-color: rgb(224, 178, 223);
+    /* position: absolute; */
+    float: left;
+    margin-top: 40rpx;
+    margin-left: 70rpx;
+}
+.book {
+    width:100%;
+}
+.book image {
+    width: 60rox;
+    height: 60rpx;
+    float: left;
+    margin-top: 110rpx;
+    margin-left: 30rpx;
+}
+.book__add {
+    font-size: 42rpx;
+    color: rgb(241, 188, 14);
+    float: left;
+    margin-left: 70rpx;
+    margin-top: 110rpx;
+}
+.book__input {
+    color: grey;
+    float: left;
+    margin-left: 30rpx;
+    margin-top: 115rpx;
+}
+.place {
+    width:100%;
+}
+.place image {
+    width: 60rox;
+    height: 60rpx;
+    float: left;
+    margin-top: 220rpx;
+    margin-left: -530rpx;
+}
+.place__add {
+    font-size: 42rpx;
+    color: rgb(58, 182, 231);
+    float: left;
+    margin-left: -400rpx;
+    margin-top: 220rpx;
+}
+.place__input {
+    color: grey;
+    float: left;
+    margin-left: 50rpx;
+    margin-top: 62rpx;
+}
+.ques {
+    width: 100%;
+    height: 200rpx;
+    border-bottom: .5px solid grey;
+}
+.ques__title {
+    color: #F788AB;
+    text-align: left;
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+}
+.ques__add {
+    float: left;
+    color: #F788AB;
+    font-size: 48rpx;
+    margin-top: 50rpx;
+    margin-left: 30rpx;
+}
+.ques__input {
+    float: left;
+    color: grey;
+    margin: 60rpx 30rpx;
+}

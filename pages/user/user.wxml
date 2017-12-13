@@ -1,0 +1,47 @@
+<view class="page">
+    <view class="user_info">
+        <navigator url="../user_info/user_info">
+            <image src="http://file01.16sucai.com/d/file/2013/0602/20130602025633640.jpg" />
+            <text>宇宙超级无敌美少女</text>
+            <text>点击查看/编辑</text>
+        </navigator>
+    </view>
+    <view class="weui-cells">
+        <view class="weui-cell">
+            <view class="weui-cell__content">
+                <navigator url='../index/index'>
+                  <image src="../../images/find.png" />
+                  <text>探探</text>
+                </navigator>
+            </view>
+        </view>
+        <view class="weui-cell" >
+            <view class="weui-cell__content">
+                <image src="../../images/love.png"   />
+                <text>匿名暗恋表白</text>
+            </view>
+        </view>
+        <navigator url="../setting/setting">
+        <view class="weui-cell" >
+                <view class="weui-cell__content">
+                    <image src="../../images/seting.png"   />
+                    <text>设置</text>
+                </view>
+        </view>
+        </navigator>
+        <navigator url="../help/help">
+        <view class="weui-cell" >
+                <view class="weui-cell__content">
+                    <image src="../../images/guide.png"   />
+                    <text>新手引导</text>
+                </view>
+        </view>
+        </navigator>
+        <view class="weui-cell" >
+                <view class="weui-cell__content">
+                    <image src="../../images/share.png"   />
+                    <text>推荐给好友</text>
+                </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,54 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__hd_left">
+    <navigator url="../user/user">
+        <image src="../../images/more.png" />
+    </navigator>
+    </view>
+    <view class="page__title">
+      <text>探探</text>
+    </view>
+    <view class="page__hd_right">
+      <navigator url="../chat/chat">
+        <image src="../../images/commu.png" />
+      </navigator>
+    </view>
+  </view>
+  <view class="page__bd">
+    <swiper class='swiper-item__content' current="" bindchange="changeswiper">
+      <swiper-item class="swip">
+        <view class='page__bd_content'> 
+          <image class="slide-image" src="http://pic.qqtn.com/up/2017-12/15126388387704237.jpg" mode="scaleToFill"/> 
+          <view class="name">K</view>
+          <view class="age">♂21</view>
+          <view class="conste">金牛座</view>
+          <view class="status">文化/教育</view> 
+        </view>
+      </swiper-item>
+      <swiper-item class="swip">
+        <view class="page__bd_content">
+          <image class="slide-image" src="http://pic.qqtn.com/up/2017-12/15126388396514829.jpg" mode="scaleToFill"/>
+          <view class="name">biubiu</view>
+          <view class="age extr1">♂18</view>
+          <view class="conste extr2">处女座</view>
+          <view class="status">学生</view>
+        </view>
+      </swiper-item>
+      <swiper-item class="swip">
+        <view class="page__bd_content">
+          <image class="slide-image" src="http://pic.qqtn.com/up/2017-12/15126388401646787.jpg" mode="scaleToFill"/>
+          <view class="name ">Leslie</view>
+          <view class="age extr3">♂23</view>
+          <view class="conste extr4">摩羯座</view>
+          <view class="status">房地产/建筑</view>
+        </view>
+        </swiper-item>
+    </swiper>
+  </view> 
+  <view class="page__ft">
+    <view class="nl">
+      <image class="notlike {{left?'active':''}}" src="../../images/notlike.png" />
+    </view>
+    <image class="like {{right?'active':''}}" src="../../images/like.png" />
+  </view>
+</view>  

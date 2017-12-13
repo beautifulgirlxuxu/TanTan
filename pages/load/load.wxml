@@ -1,0 +1,3 @@
+<view class="load">
+    <image src="../../images/load.jpg" />
+</view>

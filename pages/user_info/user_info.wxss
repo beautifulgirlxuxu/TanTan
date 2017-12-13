@@ -1,0 +1,311 @@
+.page__hd {
+    width: 100%;
+    height: 100rpx;
+    background: #F788AB;
+    text-align: center;
+    padding: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+.page__hd_left image{
+    width: 60rpx;
+    height: 60rpx;
+    line-height: 100rpx;
+    margin-top: 20rpx;
+    margin-left:20rpx;
+    float: left;
+}
+.page__title text{
+    text-align:center;
+    line-height: 100rpx;
+    font-size: 48rpx;
+    color: white;
+    margin-left: -30px;
+}
+.page__hd_right image{
+    width: 80rpx;
+    height: 80rpx;
+    margin-top: -90rpx;
+    margin-right: 20rpx;
+    float: right;
+}
+.page__bd {
+    width: 100%;
+    /* height: 2000rpx;  */
+    overflow-y: scroll;
+}
+.swiper-tab {
+    width:100%;
+    height: 600rpx;
+}
+.slide-image {
+    width:100%;
+    height: 600rpx;
+}
+.user-info {
+    width: 100%;
+    height: 200rpx;
+    /* padding: 20rpx 20rpx; */
+    font-family: sans-serif;
+    text-align: left;
+    border-bottom: .5rpx solid grey;
+}
+.name {
+    font-size: 42rpx;
+    letter-spacing: 5rpx;
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+}
+.center{
+    width: 100%;
+    /* position: relative; */
+}
+.age {
+    width:80rpx;
+    height: 40rpx;
+    margin-top: 10rpx;
+    margin-left: 30rpx;
+    font-size: 32rpx;
+    line-height: 40rpx;
+    text-align: center;
+    letter-spacing: 1rpx;
+    /* float: left; */
+    display: inline-block;
+    float: left;
+    background-color: pink;
+    border-radius: 10rpx;
+}
+.conste {
+    width:120rpx;
+    height: 40rpx;
+   margin-top: 10rpx;
+   margin-left: 20rpx;
+   font-size: 32rpx;
+   line-height: 40rpx;
+   text-align: center;
+   letter-spacing: 1rpx;
+   display: inline-block;
+   float: left;
+   background-color: rgb(99, 212, 99);
+   border-radius: 10rpx;
+}
+.active{
+    margin-top: 60rpx;
+    margin-left: 30rpx;
+    color:grey;
+    font-size: 30rpx;
+    /* position: absolute; */
+}
+.like {
+    width: 100%;
+    height: 180rpx;
+    text-align: left;
+    border-bottom: .5rpx solid grey;
+}
+.like image{
+    width:50rpx;
+    height: 50rpx;
+    margin-top: 45rpx;
+    margin-left: 30rpx;
+    float: left;
+}
+.like__center {
+    /* width: 400rpx; */
+    height: 200rpx;
+    float: left;
+}
+.number {
+    font-size: 36rpx;
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+}
+.remind {
+    font-size: 28rpx;
+    margin-top: 20rpx;
+    margin-left: 30rpx;
+    color: grey;
+}
+.share {
+    font-size: 30rpx;
+    color: #F788AB;
+    float: right;
+    margin-top: 40rpx;
+    margin-right: 30rpx;
+}
+.uesr-address {
+    width: 100%;
+    height: 220rpx;
+    /* text-align: left; */
+    border-bottom: 1rpx solid grey;
+}
+.title {
+    margin-top: 30rpx;
+    margin-left: -520rpx;
+    color: #F788AB;
+}
+.address {
+    margin-top: 50rpx;
+}
+.address image{
+    width: 60rpx;
+    height: 60rpx;
+    margin-left: 30rpx;
+    float: left;
+}
+.address text{
+    float: left;
+    display: inline-block;
+    font-size: 36rpx;
+    margin-top: 5rpx;
+    margin-left: 50rpx;
+}
+.user-label {
+    width: 100%;
+    height: 220rpx;
+    border-bottom: 1rpx solid grey;
+}
+.mylabel {
+    text-align: left;
+    color: #F788AB;
+    margin-top: 40rpx;
+    margin-left: 35rpx;
+}
+.user-label image {
+    width: 80rpx;
+    height: 80rpx;
+    float: left;
+    margin-top: 50rpx;
+    margin-left: 30rpx;
+}
+.firlab {
+    width: 160rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    float: left;
+    font-size: 32rpx;
+    color: rgb(50, 50, 197);
+    text-align: center;
+    margin-top: 60rpx;
+    margin-left: 80rpx;
+    background-color:rgb(160, 148, 148);
+    border-radius: 10rpx;
+}
+.seclab {
+    width: 160rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    float: left;
+    font-size: 32rpx;
+    color: rgb(50, 50, 197);
+    text-align: center;
+    margin-top: 60rpx;
+    margin-left: 10rpx;
+    background-color: rgb(160, 148, 148);
+    border-radius: 10rpx;
+}
+.uesr-hobby {
+    width: 100%;
+    height: 500rpx;
+    border-bottom: 1rpx solid grey;
+}
+.uesr-hobby image{
+    width:60rpx;
+    height: 60rpx;
+    float: left;
+}
+.myhobby {
+    text-align: left;
+    margin-top: 40rpx;
+    margin-left: 30rpx;
+    color: #F788AB;
+}
+.sports {
+    width:100%;
+    height: 40rpx;
+    /* position: absolute; */
+}
+.sports image{
+    margin-top: 60rpx;
+    margin-left: 30rpx;
+}
+.sport {
+    width: 140rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 32rpx;
+    border-radius: 10rpx;
+    color: green;
+    background-color: rgb(120, 194, 120);
+    float: left;
+    margin-top: 60rpx;
+    margin-left: 80rpx;
+    float: left;
+}
+.music {
+    width: 100%;
+    height: 40rpx;
+    float: left;
+}
+.music image{
+    /* float: left; */
+    margin: 60rpx 30rpx;
+}
+.coun {
+    width: 135rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: rgb(21, 21, 201);
+    border-radius: 10rpx;
+    background-color: rgb(140, 140, 216);
+    float: left;
+    margin: 60rpx 50rpx;
+}
+.firsin {
+    width: 135rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: rgb(21, 21, 201);
+    border-radius: 10rpx;
+    background-color: rgb(140, 140, 216);
+    float: left;
+    margin: 60rpx -30rpx;
+}
+.secsin {
+    width: 200rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: rgb(21, 21, 201);
+    border-radius: 10rpx;
+    background-color: rgb(140, 140, 216);
+    float: right;
+    margin: 60rpx 50rpx;
+}
+.movies{
+    width: 100%;
+    height: 40rpx;
+    float: left;
+}
+.movies image{
+    margin: 130rpx 30rpx;
+}
+.movie {
+    width: 280rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: rgb(204, 56, 199);
+    border-radius: 10rpx;
+    background-color: rgb(224, 178, 223);
+    /* position: absolute; */
+    float: left;
+    margin-top: 130rpx;
+    margin-left: 50rpx;
+}

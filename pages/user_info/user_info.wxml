@@ -1,0 +1,74 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__hd_left">
+            <navigator url="../user/user">
+                <image src="../../images/more.png" />
+            </navigator>
+        </view>
+        <view class="page__title">
+            <text>个人资料</text>
+        </view>
+        <view class="page__hd_right">
+            <navigator url="../editInfo/editInfo">
+                <image src="../../images/edit.png" />
+            </navigator>
+        </view>
+    </view>
+    <scroll-view scroll-y="true">
+    <view class="page__bd">
+        <swiper class="swiper-tab" indicator-dots="true" indicator-color="grey" indicator-active-color="white" duration="500">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                    <image src="{{item}}" class="slide-image" mode="scaleToFill" />
+                </swiper-item>
+            </block>
+        </swiper>
+        <view class="user-info">
+            <view class="name">宇宙超级无敌美少女</view>
+            <view class="center">
+                <view class="age">♀20</view>
+                <view class="conste">天秤座</view>
+            </view>
+            <view class="active">0m，刚刚活跃</view>
+        </view>
+        <view class="like">
+            <image src="../../images/heart.png"  />
+            <view class="like__center">
+                <view class="number">4489人喜欢了你</view>
+                <view class="remind">每天右滑越多，获得喜欢数越多哦！</view>
+            </view>
+            <view class="share">炫耀一下</view>
+        </view>
+        <view class="uesr-address">
+            <view class="title">我的信息</view>
+            <view class="address">
+                <image src="../../images/addr.png" />
+                <text>江西</text>
+            </view>
+        </view>
+        <view class="user-label">
+            <view class="mylabel">我的标签</view>
+            <image src="../../images/label.png" />
+            <view class="firlab">萌萌哒</view>
+            <view class="seclab">拖延症</view>
+        </view>
+        <view class="uesr-hobby">
+            <view class="myhobby">我的兴趣</view>
+                <view class="sports">
+                    <image src="../../images/sports.png" />
+                    <view class="sport">睡觉</view>
+                </view>
+                <view class="music">
+                    <image src="../../images/music.png" />
+                    <view class="coun">欧美</view>
+                    <view class="firsin">周杰伦</view>
+                    <view class="secsin">G.E.M邓紫棋</view>
+                </view>
+                <view class="movies">
+                    <image src="../../images/tv.png" />
+                    <view class="movie">这个杀手不太冷</view>
+                </view>
+        </view>
+ </view>
+</scroll-view>
+</view>
