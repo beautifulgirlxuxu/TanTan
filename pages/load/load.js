@@ -17,7 +17,7 @@ Page({
       wx.redirectTo({
         url:'../index/index'
       })
-    }, 12000);
+    }, 2000);
   },
 
   /**

@@ -46,9 +46,7 @@
     </swiper>
   </view> 
   <view class="page__ft">
-    <view class="nl">
-      <image class="notlike {{left?'active':''}}" src="../../images/notlike.png" />
-    </view>
+    <image class="notlike {{left?'active':''}}" src="../../images/notlike.png" />
     <image class="like {{right?'active':''}}" src="../../images/like.png" />
   </view>
 </view>  
