@@ -49,7 +49,7 @@ const friendsList = {
         {
           "avatar": "http://www.qqtn.com/up/2014-5/13992711052398115.jpg",
           "nickname": "Kun",
-          "message": "嗨"
+          "message": "哈喽"
         }
       ]
     }
