@@ -1,7 +1,7 @@
 <view class="page">
     <view class="page__hd">
         <navigator url="../user_info/user_info">
-            <image src="../../images/back.png" />
+            <image src="../../assets/images/back.png" />
         </navigator>
         <view class="page__hd title">编辑个人资料</view>
     </view>
@@ -23,7 +23,7 @@
         <view class="sign">
             <view class="sign__title">个性签名</view>
             <view class="sign__content">
-                <image src="../../images/editSign.png" />
+                <image src="../../assets/images/editSign.png" />
                 <view class="sign__add">+</view>
                 <view class="sign__input">添加你的个人签名</view>
             </view>
@@ -31,64 +31,64 @@
         <view class="info">
             <view class="info__title">我的信息</view>
             <view class="hyinfo">
-                <image src="../../images/workbag.png" />
+                <image src="../../assets/images/workbag.png" />
                 <view class="hyinfo__add">+</view>
                 <view class="hyinfo__input">添加行业信息</view>
             </view>
             <view class="woinfo">
-                <image src="../../images/workbag.png" />
+                <image src="../../assets/images/workbag.png" />
                 <view class="woinfo__add">+</view>
                 <view class="woinfo__input">添加工作领域信息</view>
             </view>
             <view class="cominfo">
-                <image src="../../images/company.png" />
+                <image src="../../assets/images/company.png" />
                 <view class="cominfo__add">+</view>
                 <view class="cominfo__input">添加公司信息</view>
             </view>
             <view class="address">
-                <image src="../../images/address.png" />
+                <image src="../../assets/images/address.png" />
                 <view class="address__pro">江西</view>
             </view>
             <view class="often">
-                <image src="../../images/position.png" />
+                <image src="../../assets/images/position.png" />
                 <view class="often__add">+</view>
                 <view class="often__input">添加你常去的地点</view>
             </view>
         </view>
         <view class="user-label">
             <view class="mylabel">我的标签</view>
-            <image src="../../images/label.png" />
+            <image src="../../assets/images/label.png" />
             <view class="firlab">萌萌哒</view>
             <view class="seclab">拖延症</view>
             </view>
         <view class="hobby">
             <view class="ho__title">我的兴趣</view>
             <view class="ho__sports">
-                <image src="../../images/sports.png" />
+                <image src="../../assets/images/sports.png" />
                 <view class="ho__sport">睡觉</view>
             </view>
             <view class="music">
-                <image src="../../images/music.png" />
+                <image src="../../assets/images/music.png" />
                 <view class="coun">欧美</view>
                 <view class="firsin">周杰伦</view>
                 <view class="secsin">G.E.M邓紫棋</view>
             </view>
             <view class="food">
-                <image src="../../images/food.png" />
+                <image src="../../assets/images/food.png" />
                 <view class="food__add">+</view>
                 <view class="food__input">我喜欢的食物</view>
             </view>
             <view class="movies">
-                <image src="../../images/tv.png" />
+                <image src="../../assets/images/tv.png" />
                 <view class="movie">这个杀手不太冷</view>
             </view>
             <view class="book">
-                <image src="../../images/book.png" />
+                <image src="../../assets/images/book.png" />
                 <view class="book__add">+</view>
                 <view class="book__input">我喜欢的书和动漫</view>
             </view>
             <view class="place">
-                <image src="../../images/place.png" />
+                <image src="../../assets/images/place.png" />
                 <view class="place__add">+</view>
                 <view class="place__input">我的旅行足迹</view>
             </view>
