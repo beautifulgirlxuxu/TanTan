@@ -2,14 +2,14 @@
     <view class="page__hd">
         <view class="page__hd_left {{open ? c-state1 : ''}}">
             <navigator url="../user/user">
-                <image src="../../images/more.png" />
+                <image src="../../assets/images/more.png" />
             </navigator>
         </view>
         <view class="page__title">
           <text>新手引导</text>
         </view>
         <view class="page__hd_right">
-            <image src="../../images/question.png" />
+            <image src="../../assets/images/question.png" />
         </view>
     </view>
 </view>
