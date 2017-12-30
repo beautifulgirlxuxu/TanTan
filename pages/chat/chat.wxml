@@ -4,7 +4,7 @@
             <text>所有配对</text>
         </view> 
         <view class="page__hd_moon">
-            <image src="../../images/moon.png" />
+            <image src="../../assets/images/moon.png" />
             <text>朋友圈</text>
         </view>
     </view>
