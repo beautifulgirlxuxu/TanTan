@@ -10,21 +10,21 @@
         <view class="weui-cell">
             <view class="weui-cell__content">
                 <navigator url='../index/index'>
-                  <image src="../../images/find.png" />
+                  <image src="../../assets/images/find.png" />
                   <text>探探</text>
                 </navigator>
             </view>
         </view>
         <view class="weui-cell" >
             <view class="weui-cell__content">
-                <image src="../../images/love.png"   />
+                <image src="../../assets/images/love.png"   />
                 <text>匿名暗恋表白</text>
             </view>
         </view>
         <navigator url="../setting/setting">
         <view class="weui-cell" >
                 <view class="weui-cell__content">
-                    <image src="../../images/seting.png"   />
+                    <image src="../../assets/images/seting.png"   />
                     <text>设置</text>
                 </view>
         </view>
@@ -32,14 +32,14 @@
         <navigator url="../help/help">
         <view class="weui-cell" >
                 <view class="weui-cell__content">
-                    <image src="../../images/guide.png"   />
+                    <image src="../../assets/images/guide.png"   />
                     <text>新手引导</text>
                 </view>
         </view>
         </navigator>
         <view class="weui-cell" >
                 <view class="weui-cell__content">
-                    <image src="../../images/share.png"   />
+                    <image src="../../assets/images/share.png"   />
                     <text>推荐给好友</text>
                 </view>
         </view>
