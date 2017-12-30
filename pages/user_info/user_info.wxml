@@ -2,7 +2,7 @@
     <view class="page__hd">
         <view class="page__hd_left">
             <navigator url="../user/user">
-                <image src="../../images/more.png" />
+                <image src="../../assets/images/more.png" />
             </navigator>
         </view>
         <view class="page__title">
@@ -10,7 +10,7 @@
         </view>
         <view class="page__hd_right">
             <navigator url="../editInfo/editInfo">
-                <image src="../../images/edit.png" />
+                <image src="../../assets/images/edit.png" />
             </navigator>
         </view>
     </view>
@@ -32,7 +32,7 @@
             <view class="active">0m，刚刚活跃</view>
         </view>
         <view class="like">
-            <image src="../../images/heart.png"  />
+            <image src="../../assets/images/heart.png"  />
             <view class="like__center">
                 <view class="number">4489人喜欢了你</view>
                 <view class="remind">每天右滑越多，获得喜欢数越多哦！</view>
@@ -42,30 +42,30 @@
         <view class="uesr-address">
             <view class="title">我的信息</view>
             <view class="address">
-                <image src="../../images/addr.png" />
+                <image src="../../assets/images/addr.png" />
                 <text>江西</text>
             </view>
         </view>
         <view class="user-label">
             <view class="mylabel">我的标签</view>
-            <image src="../../images/label.png" />
+            <image src="../../assets/images/label.png" />
             <view class="firlab">萌萌哒</view>
             <view class="seclab">拖延症</view>
         </view>
         <view class="uesr-hobby">
             <view class="myhobby">我的兴趣</view>
                 <view class="sports">
-                    <image src="../../images/sports.png" />
+                    <image src="../../assets/images/sports.png" />
                     <view class="sport">睡觉</view>
                 </view>
                 <view class="music">
-                    <image src="../../images/music.png" />
+                    <image src="../../assets/images/music.png" />
                     <view class="coun">欧美</view>
                     <view class="firsin">周杰伦</view>
                     <view class="secsin">G.E.M邓紫棋</view>
                 </view>
                 <view class="movies">
-                    <image src="../../images/tv.png" />
+                    <image src="../../assets/images/tv.png" />
                     <view class="movie">这个杀手不太冷</view>
                 </view>
         </view>
