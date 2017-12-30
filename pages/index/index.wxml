@@ -2,7 +2,7 @@
   <view class="page__hd">
     <view class="page__hd_left">
     <navigator url="../user/user">
-        <image src="../../images/more.png" />
+        <image src="../../assets/images/more.png" />
     </navigator>
     </view>
     <view class="page__title">
@@ -10,7 +10,7 @@
     </view>
     <view class="page__hd_right">
       <navigator url="../chat/chat">
-        <image src="../../images/commu.png" />
+        <image src="../../assets/images/commu.png" />
       </navigator>
     </view>
   </view>
@@ -46,7 +46,7 @@
     </swiper>
   </view> 
   <view class="page__ft">
-    <image class="notlike {{left?'active':''}}" src="../../images/notlike.png" />
-    <image class="like {{right?'active':''}}" src="../../images/like.png" />
+    <image class="notlike {{left?'active':''}}" src="../../assets/images/notlike.png" />
+    <image class="like {{right?'active':''}}" src="../../assets/images/like.png" />
   </view>
 </view>  
