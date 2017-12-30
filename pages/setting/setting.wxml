@@ -2,7 +2,7 @@
     <view class="page__hd">
         <view class="page__hd_left {{open ? c-state1 : ''}}">
             <navigator url="../user/user">
-                  <image src="../../images/more.png" />
+                  <image src="../../assets/images/more.png" />
             </navigator>
         </view>
         <view class="page__title">
@@ -10,7 +10,7 @@
         </view>
         <view class="page__hd_right">
             <navigator url="../chat/chat">
-                <image src="../../images/commu.png" />
+                <image src="../../assets/images/commu.png" />
             </navigator>
         </view>
     </view>
@@ -33,33 +33,33 @@
         <view class="sys-set">
             <view class="sys-set__title">应用设置</view>
             <view class="per-info">
-                <image src="../../images/per-info.png" />
+                <image src="../../assets/images/per-info.png" />
                 <view class="per-info__title">个人信息</view>
                 <view class="per-info__subtitle">编辑姓名等</view>
             </view>
             <view class="root">
-                <image src="../../images/root.png" />
+                <image src="../../assets/images/root.png" />
                 <view class="root__title">隐私与权限</view>
                 <view class="root__subtitle">联系人，我的相册，朋友圈</view>
             </view>
             <view class="message">
-                <image src="../../images/message.png" />
+                <image src="../../assets/images/message.png" />
                 <view class="message__title">消息提醒与聊天</view>
                 <view class="message__subtitle">通知，聊天设置</view>
             </view>
             <view class="data">
-                <image src="../../images/set.png" />
+                <image src="../../assets/images/set.png" />
                 <view class="data__title">数据与缓存</view>
                 <view class="data__subtitle">数据和缓存设置</view>
             </view>
             <view class="account">
-                <image src="../../images/lock.png" />
+                <image src="../../assets/images/lock.png" />
                 <view class="account__title">账号与安全</view>
                 <view class="account__subtitle">修改手机号和密码</view>
             </view>
         </view>
         <view class="advice">
-            <image src="../../images/advice.png" />
+            <image src="../../assets/images/advice.png" />
             <view class="advice__title">意见反馈</view>
             <view class="advice__subtitle">感谢你提出对探探的宝贵意见</view>
             <view class="exit">退出登录</view>
